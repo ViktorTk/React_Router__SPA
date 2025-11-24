@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+div#main {
+  display: flex;
+  margin: 20px;
+}
+
+div#product {
+  margin-left: 40px;
+}
+
+a.active {
+  font-weight: bold;
+  color: brown;
+}
+
+a.loading {
+  color: gray;
+}
+
+div.loading {
+  opacity: 0.3;
+}
+
+div#control {
+  display: flex;
+}
+
+button {
+  margin-right: 5px;
+}
